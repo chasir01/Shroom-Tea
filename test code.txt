@@ -1,0 +1,6 @@
+scripts\3_Game\PPEManager\Requesters
+u need to register effect in PPERequesterBank, then add variable in PPEGlow and start it from missiongameplay
+like this
+PPERequesterBank.GetRequester(PPERequesterBank.REQ_VYBROS).Start();
+to stop effect
+PPERequesterBank.GetRequester(PPERequesterBank.REQ_VYBROS).Stop();
